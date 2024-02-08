@@ -1,16 +1,16 @@
 <html>
-  EUDEV MIAW 1
+  EUDEV MIAW 2
   <body>
-    <script type='text/javascript'>
+   <script type='text/javascript'>
 	function initEmbeddedMessaging() {
 		try {
 			embeddedservice_bootstrap.settings.language = 'en_US'; // For example, enter 'en' or 'en-US'
 			embeddedservice_bootstrap.init(
-				'00DUB00000069dJ',
-				'MIAW_EsmondDev4',
-				'https://bordgaisenergyeandu--esmonddev.sandbox.my.site.com/ESWMIAWEsmondDev41703172693512',
+				'00DJW0000018D9D',
+				'MIAW',
+				'https://bordgaisenergyeandu--eudev.sandbox.my.site.com/ESWMIAW1707384083535',
 				{
-					scrt2URL: 'https://bordgaisenergyeandu--esmonddev.sandbox.my.salesforce-scrt.com'
+					scrt2URL: 'https://bordgaisenergyeandu--eudev.sandbox.my.salesforce-scrt.com'
 				}
 			);
 		} catch (err) {
@@ -18,7 +18,7 @@
 		}
 	};
 </script>
-<script type='text/javascript' src='https://bordgaisenergyeandu--esmonddev.sandbox.my.site.com/ESWMIAWEsmondDev41703172693512/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>
+<script type='text/javascript' src='https://bordgaisenergyeandu--eudev.sandbox.my.site.com/ESWMIAW1707384083535/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>
 
   </body>
   
