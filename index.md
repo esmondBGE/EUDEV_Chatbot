@@ -1,16 +1,16 @@
 <html>
-  TEST MIAW Version 2 16/04/2024
+  DEV MIAW Version 4 22/08/2024
   <body>
  <script type='text/javascript'>
 	function initEmbeddedMessaging() {
 		try {
 			embeddedservice_bootstrap.settings.language = 'en_US'; // For example, enter 'en' or 'en-US'
 			embeddedservice_bootstrap.init(
-				'00DJW000000q7pX',
-				'MIAW_chatbot_github',
-				'https://bordgaisenergyeandu--test.sandbox.my.site.com/ESWMIAWchatbotgithub1713262301623',
+				'00DJW0000018D9D',
+				'MIAW',
+				'https://bordgaisenergyeandu--eudev.sandbox.my.site.com/ESWMIAW1707384083535',
 				{
-					scrt2URL: 'https://bordgaisenergyeandu--test.sandbox.my.salesforce-scrt.com'
+					scrt2URL: 'https://bordgaisenergyeandu--eudev.sandbox.my.salesforce-scrt.com'
 				}
 			);
 		} catch (err) {
@@ -18,7 +18,8 @@
 		}
 	};
 </script>
-<script type='text/javascript' src='https://bordgaisenergyeandu--test.sandbox.my.site.com/ESWMIAWchatbotgithub1713262301623/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>
+<script type='text/javascript' src='https://bordgaisenergyeandu--eudev.sandbox.my.site.com/ESWMIAW1707384083535/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>
+
 
   </body>
   
